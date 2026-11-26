@@ -15,7 +15,8 @@ interface ContainerApp {
 }
 
 class DefaultContainerApp : ContainerApp {
-    private val baseurl = "http://10.0.2.2/umyTI/"
+    // Gunakan IP Wi-Fi laptop agar bisa diakses dari HP fisik maupun Emulator
+    private val baseurl = "http://192.168.1.9/umyTI/"
 
     private val retrofit: Retrofit = Retrofit.Builder()
         .baseUrl(baseurl)
