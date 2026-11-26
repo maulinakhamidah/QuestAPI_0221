@@ -1,3 +1,6 @@
+/**
+ * Interface Retrofit untuk komunikasi dengan backend REST API Siswa
+ */
 package com.example.pam_12.apiservice
 
 import com.example.pam_12.modeldata.DataSiswa
