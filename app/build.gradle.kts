@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
-
     alias(libs.plugins.kotlin.serialization)
 }
 
@@ -57,7 +56,10 @@ dependencies {
     implementation(libs.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
     implementation(libs.navigation.compose)
+    implementation(libs.compose.icons)
+    implementation(libs.retrofit)
     implementation(libs.retrofit.serialization)
     implementation(libs.kotlinx.serialization.json)
+    implementation(libs.okhttp)
     implementation(libs.okhttp.logging)
 }
